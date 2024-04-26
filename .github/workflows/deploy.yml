@@ -32,7 +32,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ file:///D:/Test/AstroThemeUpload/public/index-v2.html }}
+      url: https://expertcare.github.io/AstroThemeUpload
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
