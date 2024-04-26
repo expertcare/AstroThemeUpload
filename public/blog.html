@@ -1,0 +1,511 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets-v2/img/logo/favicon.png">
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets-v2/css/bootstrap.css">
+    <link rel="stylesheet" href="assets-v2/css/meanmenu.css">
+    <link rel="stylesheet" href="assets-v2/css/animate.css">
+    <link rel="stylesheet" href="assets-v2/css/swiper-bundle.css">
+    <link rel="stylesheet" href="assets-v2/css/slick.css">
+    <link rel="stylesheet" href="assets-v2/css/nouislider.css">
+    <link rel="stylesheet" href="assets-v2/css/backtotop.css">
+    <link rel="stylesheet" href="assets-v2/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets-v2/css/font-awesome-pro.css">
+    <link rel="stylesheet" href="assets-v2/css/spacing.css">
+    <link rel="stylesheet" href="assets-v2/css/aos.css">
+    <link rel="stylesheet" href="assets-v2/css/main.css">
+</head>
+<style>
+    .mt-5 {
+        margin-top: 7rem !important;
+    }
+
+    .leftcolumn {
+        float: left;
+        width: 70%;
+    }
+    .rightcolumn {
+        float: left;
+        width: 30%;
+        padding-left: 40px;
+    }
+    .fakeimg {
+        background-color: #aaa;
+        width: 100%;
+
+    }
+    .card {
+        background-color: white;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    h3 {
+
+        color: var(--tp-theme-7);
+    }
+
+    .back-color {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(../public/assets-v2/img/blog/thumb_hero-bg.jpg) !important;
+    }
+    @media screen and (max-width: 800px) {
+
+        .leftcolumn,
+        .rightcolumn {
+            width: 100%;
+            padding: 0;
+        }
+    }
+</style>
+
+<body class="green-light-bg-4">   
+    <div id="loading">
+        <div id="loading-center">
+            <div id="loading-center-absolute">
+                <div class="preloader__content text-center">
+
+                    <div id="tp-loading-bar" class="preloader__bar">
+                        <div id="tp-loading-line" class="preloader__bar-inner"></div>
+                    </div>
+                    <h3 class="preloader__title">
+                        <img src="assets-v2/img/logo/logo.png" style="margin-left:-40px;">
+                    </h3>
+                    <div class="preloader__with-text ">
+                        <div class="preloader__with-text-wrapper">
+                            <span data-text-preloader="h" class="preloader__title-2">h</span>
+                            <span data-text-preloader="a" class="preloader__title-2">a</span>
+                            <span data-text-preloader="r" class="preloader__title-2">r</span>
+                            <span data-text-preloader="r" class="preloader__title-2">r</span>
+                            <span data-text-preloader="y" class="preloader__title-2">y</span>
+                        </div>
+                    </div>
+                    <p class="preloader__loading">Loading</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- pre loader area end -->
+
+    <!-- back to top start -->
+    <div class="back-to-top-wrapper">
+        <button id="back_to_top" type="button" class="back-to-top-btn">
+            <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11 6L6 1L1 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                    stroke-linejoin="round" />
+            </svg>
+        </button>
+    </div>
+    <!-- back to top end -->
+
+    <!-- header area start -->
+    <header id="home">
+        <div class="header__area">
+            <div class="header__bottom-7 header__transparent  header__sticky header__sticky-white" id="header-sticky">
+                <div class="container">
+                    <div class="mega-menu-wrapper p-relative">
+                        <div class="row align-items-center">
+                            <div class="col-xxl-2 col-xl-2 col-lg-6 col-md-4 col-sm-5 col-8">
+                                <div class="logo" data-aos="fade-right">
+                                    <a href="#home" class="h3">
+                                        <img src="assets-v2/img/logo/logo.png" class="stickylogo"
+                                            style="margin: 10px; width: 180px;">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xxl-7 col-xl-7 col-lg-8 d-none d-xl-block text-center">
+                                <div class="main-menu main-menu-7" data-aos="fade-down">
+                                    <nav id="mobile-menu-3">
+                                        <ul>
+                                            <li>
+                                                <!-- <a href="#home">Home</a> -->
+                                                <a href="index-v2.html">Home</a>
+                                            </li>
+
+                                            <li>
+                                                <a href="index-v2.html#Services">Services</a>
+                                            </li>
+
+                                            <li>
+                                                <a href="index-v2.html#OurWork">Our Work</a>
+                                            </li>
+                                            <li>
+                                                <a href="index-v2.html#Testimonials">Testimonials</a>
+                                            </li>
+                                            <li>
+                                                <a href="index-v2.html#Blog">Blog</a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                    <!-- for wp -->
+                                    <div class="header__hamburger ml-50 d-none">
+                                        <button type="button" class="hamburger-btn offcanvas-open-btn ">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-8 col-sm-7 col-4" data-aos="fade-left">
+                                <div class="header__bottom-right-6 d-flex justify-content-end align-items-center pl-30">
+                                    <div class="header__btn-7 d-flex align-items-center">
+                                        <a href="index-v2.html#Contact"
+                                            class="tp-btnr tp-btn-shine-effect d-none d-sm-inline-block ml-30 customerbtnmar">Les't
+                                            Talk</a>
+                                    </div>
+                                    <div class="header__hamburger ml-50 d-xl-none">
+                                        <button type="button"
+                                            class="hamburger-btn hamburger-btn-black offcanvas-open-btn">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header area end -->
+
+    <!-- offcanvas area start -->
+    <div class="offcanvas__area offcanvas__area-2 ">
+        <div class="offcanvas__wrapper">
+            <div class="offcanvas__shape">
+                <img class="offcanvas__shape-1" src="assets-v2/img/shape/offcanvas-shape-1.png" alt="">
+            </div>
+            <div class="offcanvas__close">
+                <button class="offcanvas__close-btn offcanvas-close-btn">
+                    <i class="fa-regular fa-xmark"></i>
+                </button>
+            </div>
+            <div class="offcanvas__content">
+                <div class="offcanvas__top mb-40 d-flex justify-content-between align-items-center">
+                    <div class="offcanvas__logo logo">
+                        <a href="#Home" class="h3">
+
+                            <img src="assets-v2/img/logo/logo.png" style=""></h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="mobile-menu-3 fix mb-40"></div>
+                <div class="offcanvas__menu offcanvas__menu-ff-space d-none d-lg-block">
+                    <nav>
+                        <ul>
+                            <li><a href="index-v2.html#Home">Home</a></li>
+                            <li><a href="index-v2.html#Service">Service</a></li>
+                            <li><a href="index-v2.html#Contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="offcanvas__btn">
+                    <a href="index-v2.html#Contact" class="tp-btnr">Les't Talk</a>
+                </div>
+                <div class="offcanvas__social">
+                    <h3 class="offcanvas__social-title">Follow :</h3>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <div class="offcanvas__contact">
+                    <p class="offcanvas__contact-call"><a href="tel:+1-860-785-3138">+1 (860) 785-3138</a></p>
+                    <p class="offcanvas__contact-mail"><a href="mailto:hello@sunalgo.com">hello@sunalgo.com</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="body-overlay"></div>
+    <!-- offcanvas area end -->
+
+    <main>
+        <section class="mt-5 green-light-bg-4 back-color">
+            <div class="row pt-3">
+                <div class="col-md-6">
+                    <div class=" text-center pt-110 pb-60" style=" align-items: center;">
+                        <h2 class="text-white">Blog post title 1</h2>                       
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div style="height:300px;"><img height="100%" width="100%"
+                            src="../public/assets-v2/img/blog/5-Reasons-Why-Your-Business-Needs-a-Blog.jpg"></div>
+                </div>
+            </div>
+            </div>
+            </div>
+        </section>
+        <section class="mt-1 mx-5 green-light-bg-4">
+            <div class="container">
+                <div class="row pt-3">
+                    <div class="leftcolumn card">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="card border-0">
+                                    <h3>Content </h3>
+                                    <h5>Title description, Dec 7, 2017</h5>
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla esse iste quo a
+                                        porro alias, ex ipsa eum optio commodi veniam libero, laudantium ducimus aliquam
+                                        sint amet aut molestias. Saepe deleniti sed magnam necessitatibus ipsa culpa hic
+                                        voluptates impedit fugit blanditiis animi alias aperiam, molestiae voluptatem
+                                        cupiditate perspiciatis harum possimus ducimus accusamus cumque? Sint, impedit
+                                        earum. Quod nam distinctio quis dicta iusto veniam maiores aliquam! Ab magnam,
+                                        iure nulla laboriosam, quod consectetur aperiam tempore impedit ipsum nisi iste
+                                        delectus, quaerat repudiandae necessitatibus nostrum quas adipisci magni est
+                                        obcaecati unde explicabo inventore minus cumque? Temporibus enim eligendi
+                                        doloremque veritatis officia doloribus.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="card border-0">
+                                    <h3>PRODUCT STRATEGY & UX DESIGN</h3>
+                                    <h5>Title description, Dec 7, 2017</h5>
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla esse iste quo a
+                                        porro alias, ex ipsa eum optio commodi veniam libero, laudantium ducimus aliquam
+                                        sint amet aut molestias. Saepe deleniti sed magnam necessitatibus ipsa culpa hic
+                                        voluptates impedit fugit blanditiis animi alias aperiam, molestiae voluptatem
+                                        cupiditate perspiciatis harum possimus ducimus accusamus cumque? Sint, impedit
+                                        earum. Quod nam distinctio quis dicta iusto veniam maiores aliquam! Ab magnam,
+                                        iure nulla laboriosam, quod consectetur aperiam tempore impedit ipsum nisi iste
+                                        delectus, quaerat repudiandae necessitatibus nostrum quas adipisci magni est
+                                        obcaecati unde explicabo inventore minus cumque? Temporibus enim eligendi
+                                        doloremque veritatis officia doloribus.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="card border-0">
+                                    <h3>Content </h3>
+                                    <h5>Title description, Dec 7, 2017</h5>
+
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla esse iste quo a
+                                        porro alias, ex ipsa eum optio commodi veniam libero, laudantium ducimus aliquam
+                                        sint amet aut molestias. Saepe deleniti sed magnam necessitatibus ipsa culpa hic
+                                        voluptates impedit fugit blanditiis animi alias aperiam, molestiae voluptatem
+                                        cupiditate perspiciatis harum possimus ducimus accusamus cumque? Sint, impedit
+                                        earum. Quod nam distinctio quis dicta iusto veniam maiores aliquam! Ab magnam,
+                                        iure nulla laboriosam, quod consectetur aperiam tempore impedit ipsum nisi iste
+                                        delectus, quaerat repudiandae necessitatibus nostrum quas adipisci magni est
+                                        obcaecati unde explicabo inventore minus cumque? Temporibus enim eligendi
+                                        doloremque veritatis officia doloribus.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="card border-0">
+                                    <h3>PRODUCT STRATEGY & UX DESIGN</h3>
+                                    <h5>Title description, Dec 7, 2017</h5>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto suscipit ad
+                                        impedit ipsa omnis alias sequi. Quaerat odio quidem eligendi quis in
+                                        perspiciatis veritatis ut vel officia perferendis eum ea dicta ullam quasi
+                                        architecto delectus fugiat, veniam aspernatur, iusto doloribus eveniet tempora
+                                        neque laudantium mollitia? Veritatis dignissimos voluptate tempore tenetur unde
+                                        exercitationem atque eos similique animi architecto corporis error voluptatem
+                                        voluptas rem earum ipsa eum doloribus libero cumque, obcaecati quod. Dolor iure
+                                        similique necessitatibus magni saepe optio ullam a possimus facere, quo vel,
+                                        labore mollitia cumque. Laboriosam rem ducimus sequi voluptatem expedita animi,
+                                        minima odio aperiam, aliquam aspernatur asperiores veritatis.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="rightcolumn ">
+
+                        <div class="row align-items-center">
+                            <div class="col-xxl-12 col-lg-12">
+                                <div class="cta__wrapper-7">
+                                    <div class="section__title-wrapper-7 mb-60">
+                                        <span class="section__title-pre-7 mt-40">Start Your Free Trial</span>
+                                        <h4>Ready to kick off your
+                                            <br> startup journey?
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xxl-12 col-lg-12">
+
+
+                                <form id="contactFormFooter" class="contact-form" method="post" action="/api/submit">
+                                    <div class="slider__form-wrapper flex-wrap row">
+                                        <div class="col-sm-12 col-md-12 slider__form-input">
+                                            <input type="text" id="name" required name="name" placeholder="Your Name">
+                                        </div>
+                                        <div class="col-sm-12 col-md-12 slider__form-input">
+                                            <input type="email" id="email" required name="email"
+                                                placeholder="Your Email">
+                                        </div>
+                                        <div class="col-sm-12 col-md-12 slider__form-input">
+                                            <input type="text" id="message" required name="message"
+                                                placeholder="What could you use help with?">
+                                        </div>
+                                        <div class="cf-turnstile" data-sitekey="0x4AAAAAAACIF21OlfUxm7XT"></div>
+                                        <div class="col-sm-12 col-md-12 mt-20 mb-20">
+                                            <button type="submit" class="tp-btnr-yellow tp-btn-shine-effect">Get
+                                                Started</button>
+                                        </div>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mx-5 z-index-1  green-light-bg-4 ">
+            <h3 class="text-center py-3 mt-2">RELATED POST</h3>
+            <div class="container mt-2">
+                <div class="row py-2">
+                    <div class="col-md-4">
+                        <div class="blog-post">
+                            <img src="../public/assets-v2/img/blog/blog1.webp" alt="Blog Post Image 1"
+                                class="blog-img h-100 w-100  portfolio__item-6 transition-3  swiper-slide-next active">
+                            <p class="text-muted my-1">Posted on January 1, 2024</p>
+                            <h4 class="mb-3">Blog Post Title 1</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam vitae risus
+                                facilisis vehicula.</p>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="blog-post">
+                            <img src="../public/assets-v2/img/blog/img_2.jpg.webp" alt="Blog Post Image 1"
+                                class="blog-img h-100 w-100 portfolio__item-6 transition-3  swiper-slide-next active">
+                            <p class="text-muted my-1">Posted on January 1, 2024</p>
+                            <h4 class="mb-3">Blog Post Title 1</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam vitae risus
+                                facilisis vehicula.</p>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="blog-post">
+                            <img src="../public/assets-v2/img/blog/img_3.jpg.webp" alt="Blog Post Image 1"
+                                class="blog-img h-100 w-100 portfolio__item-6 transition-3  swiper-slide-next active">
+                            <p class="text-muted my-1">Posted on January 1, 2024</p>
+                            <h4 class="mb-3">Blog Post Title 1</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam vitae risus
+                                facilisis vehicula.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+
+    <!-- footer area start -->
+    <footer class="mt-5">
+        <div class="footer__area footer__style-green include-bg bg-luminosity" data-bg-color="footer-bg-green-dark">
+
+            <div class="footer__bottom-7">
+                <div class="container">
+                    <div class="footer__bottom-inner-7">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12 col-6">
+                                <div class="footer__copyright-7 text-left">
+                                    <p>© <span id="copyYear">2020</span> SunAlgo</p>
+                                    <script>
+                                        document.getElementById('copyYear').innerText = new Date().getFullYear();
+                                    </script>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-sm-12 col-6 text-right" style="text-align:right; ">
+                                <p style=" color:#fff !important;"> All Rights Reserved.</p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer area end -->
+
+    <!-- toast start -->
+    <div class="p-3 top-0 start-50 translate-middle-x position-fixed" style="z-index: 9999">
+        <div id="toast" class="toast align-items-center hide text-white border-0 w-100" role="alert"
+            aria-live="assertive" aria-atomic="true">
+            <div class="d-flex">
+                <div class="toast-body">
+                    <span id="msg-text"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- toast end -->
+
+    <!-- JS here -->
+    <script src="assets-v2/js/vendor/jquery.js"></script>
+    <script src="assets-v2/js/vendor/waypoints.js"></script>
+    <script src="assets-v2/js/bootstrap-bundle.js"></script>
+    <script src="assets-v2/js/meanmenu.js"></script>
+    <script src="assets-v2/js/swiper-bundle.js"></script>
+    <script src="assets-v2/js/slick.js"></script>
+    <script src="assets-v2/js/nouislider.js"></script>
+    <script src="assets-v2/js/magnific-popup.js"></script>
+    <script src="assets-v2/js/parallax.js"></script>
+    <script src="assets-v2/js/easing.js"></script>
+    <script src="assets-v2/js/parallax-scroll.js"></script>
+    <script src="assets-v2/js/backtotop.js"></script>
+    <script src="assets-v2/js/nice-select.js"></script>
+    <script src="assets-v2/js/purecounter.js"></script>
+    <script src="assets-v2/js/isotope-pkgd.js"></script>
+    <script src="assets-v2/js/imagesloaded-pkgd.js"></script>
+    <script src="assets-v2/js/ajax-form.js"></script>
+    <script src="assets-v2/js/main.js"></script>
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+    <script src="assets-v2/js/contact-form.js"></script>
+
+
+
+    <script src="assets-v2/js/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-out-back',
+            duration: 1000
+        });
+        function redirectToHome() {
+            // Replace the current URL with the desired path
+            history.replaceState({}, '', '/home');
+            // Redirect to the new URL
+            window.location.href = '../index-v2.html';
+        }
+    </script>
+</body>
+
+</html>
