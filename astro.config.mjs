@@ -2,5 +2,5 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://expertcare.github.io/AstroThemeUpload/',
+    site: 'file:///D:/Test/AstroThemeUpload/public/index-v2.html',
 });
