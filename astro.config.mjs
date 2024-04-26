@@ -1,6 +1,6 @@
 import { defineConfig } from 'astro/config'
 
 export default defineConfig({
-  site: 'https://sunalgo.github.io',
-  base: 'AstroThemeUpload',
+  site: 'file:///D:/Test/AstroThemeUpload/public/index-v2.html'
+//   base: 'AstroThemeUpload',
 })
